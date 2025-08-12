@@ -6,7 +6,6 @@ This repository contains a small web experience that lets you upload a **chest X
 - A **Flask** server (`server.py`) serves a simple UI (Jinja templates in `templates/`) where you can upload an image.
 - The uploaded file is saved to `uploads/`, preprocessed, and passed to a **CNN** model loaded from `BestModel/`.
 - The server returns a predicted **class** and **confidence**, which are rendered back to the page.
-- A small utility (`image_tester.py`) can be used to run the model on images from the command line.
 
 > Note: The repo ships with model artifacts in `BestModel/`. Architecture/training code is not part of this repository. If you replace the model, make sure the preprocessing and input shape match.
 
