@@ -57,9 +57,6 @@ This tool is for **education and demonstration**. It is **not a diagnostic devic
 - Bug reports and small fixes (typos, doc updates, input validation) are welcome.
 - If you add a new model, document its expected input size and preprocessing.
 
-## License
-Add your desired license here (e.g., MIT).
-
 ---
 
 ### Maintainer
